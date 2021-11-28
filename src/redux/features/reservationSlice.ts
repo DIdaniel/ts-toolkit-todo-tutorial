@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-interface ReservationState {
+export interface ReservationState {
   value: string[];
 }
 
